@@ -19,4 +19,4 @@ Download `chromium`:<br>
 Fetch page content:<br>
 `python3 fetch_page.py [URL]`
 
-The script will fetch text and images from the URL and output them in markdown. The markdown file (as well as images) will be located in the newly generated output/ folder.
+The script will fetch text and images from the URL and output them in markdown.
