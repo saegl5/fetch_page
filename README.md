@@ -8,10 +8,10 @@ Set up and activate virtual environment:<br>
 `python3 -m venv .venv`<br>
 `source .venv/bin/activate`
 
-Install `playwright` package:<br> 
+Install `playwright` package into the virtual environment:<br> 
 `pip install playwright`
 
-Download `chromium`:<br>
+Download `chromium` for `playwright`:<br>
 `playwright install chromium`
 
 ## Run
