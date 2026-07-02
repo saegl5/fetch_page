@@ -12,7 +12,7 @@ This tool is provided for **legitimate and lawful purposes only**, such as inges
 - You have read and will respect the target website's `robots.txt` file and Terms of Service before fetching any content.
 - Unauthorized scraping, circumventing access controls, harvesting personal data without consent, or any use that violates a site's ToS is done entirely **at your own risk**.
 
-**The author(s) of this project accept no liability** for any misuse, legal consequences, damages, or harm arising from use of this software. This project is released as-is under the MIT License, with no warranty of any kind.
+**The author of this project accepts no liability** for any misuse, legal consequences, damages, or harm arising from use of this software. This project is released as-is under the MIT License, with no warranty of any kind.
 
 ## Dependencies
 
