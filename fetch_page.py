@@ -3,6 +3,8 @@ import re
 import os
 import sys
 
+print("\nWARNING: Ensure you have permission to fetch this URL. Unauthorized scraping may violate laws and terms of service. Use at your own risk.", file=sys.stderr)
+
 if len(sys.argv) < 2:
     print("Usage: python3 fetch_page.py <url>")
     sys.exit(1)
