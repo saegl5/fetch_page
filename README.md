@@ -14,8 +14,6 @@ This tool is provided for **legitimate and lawful purposes only**, such as inges
 
 **The author(s) of this project accept no liability** for any misuse, legal consequences, damages, or harm arising from use of this software. This project is released as-is under the MIT License, with no warranty of any kind.
 
-> Use responsibly. When in doubt, don't scrape it.
-
 ## Dependencies
 
 Set up and activate virtual environment:<br>
