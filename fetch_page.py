@@ -75,6 +75,7 @@ def html_to_markdown(el_handle, page):
 def download_images(markdown, context, article_image_dir, safe_title):
     img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
     counter = 0
+    encoded_safe_title = safe_title.replace(' ', '%20')
 
     def replace_img(match):
         nonlocal counter
@@ -92,7 +93,7 @@ def download_images(markdown, context, article_image_dir, safe_title):
             with open(os.path.join(article_image_dir, filename), 'wb') as f:
                 f.write(response.body())
             print(f"  Downloaded: {filename}")
-            return f'![{alt}](images/{safe_title}/{filename})'
+            return f'![{alt}](images/{encoded_safe_title}/{filename})'
         except Exception as e:
             print(f"  Error: {e}")
             return match.group(0)
