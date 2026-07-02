@@ -2,6 +2,20 @@
 
 Python script for fetching page content to ingest in an AI assistant
 
+## ⚠️ Legal Disclaimer & Ethical Use
+
+This tool is provided for **legitimate and lawful purposes only**, such as ingesting content from websites you own or have explicit permission to access.
+
+**By using this script, you agree that:**
+
+- You are solely responsible for ensuring your use complies with all applicable laws, including but not limited to the Computer Fraud and Abuse Act (CFAA), GDPR, and relevant local regulations.
+- You have read and will respect the target website's `robots.txt` file and Terms of Service before fetching any content.
+- Unauthorized scraping, circumventing access controls, harvesting personal data without consent, or any use that violates a site's ToS is done entirely **at your own risk**.
+
+**The author(s) of this project accept no liability** for any misuse, legal consequences, damages, or harm arising from use of this software. This project is released as-is under the MIT License, with no warranty of any kind.
+
+> Use responsibly. When in doubt, don't scrape it.
+
 ## Dependencies
 
 Set up and activate virtual environment:<br>
