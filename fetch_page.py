@@ -1,6 +1,5 @@
 from playwright.sync_api import sync_playwright
 import re
-import os
 import sys
 
 print("\nWARNING: Ensure you have permission to fetch this URL. Unauthorized scraping may violate laws and terms of service. Use at your own risk.", file=sys.stderr)
